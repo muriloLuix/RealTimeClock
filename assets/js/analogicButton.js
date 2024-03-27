@@ -14,3 +14,14 @@ button.addEventListener('click', function() {
     });
     
 });
+
+button.addEventListener('click', function(){
+    const divs = document.querySelectorAll('.analogicOn, .analogicOff' );
+    divs.forEach(function(div){ // forEach itera sobre cada Div do querySelector
+        if (div.classList.contains('analogicOn')){  
+            button.innerText = 'Relógio Digital'
+        } else {
+            button.innerText = 'Relógio Analógico'
+        }
+    })
+})
