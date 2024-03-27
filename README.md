@@ -8,6 +8,9 @@ In this **mini project** that I've carried out, I created two types of clocks, *
 
 <hr>
 
+Web Deploy: https://muriloluix.github.io/RealTimeClock/
+
+<hr>
 <h1> Technologies Used </h1>
 <div style="display: flex">
   <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
