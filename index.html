@@ -8,11 +8,14 @@
     <script src="assets/js/digitalClock.js" defer></script>
     <script src="assets/js/analogicClock.js" defer></script>
     <script src="assets/js/analogicButton.js" defer></script>
+    <script src="assets/js/switchTheme.js" defer></script>
     <script src="assets/js/tab.js" defer></script>
     <title> | Horário de Brasília</title>
 </head>
-<body>
-
+<body class="green">
+    <button class="btnSwitch" id="changeColor" onclick="switchTheme()">
+        Trocar Cor
+    </button>
     <div class="relogio">
         <div>
             <span id="horas">00</span>
